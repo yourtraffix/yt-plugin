@@ -131,7 +131,7 @@ class Yourtraffix_Admin
 	public function wp_loaded()
 	{
 		if (isset($_GET['yt_verify']) && $_GET['yt_verify'] === 'token') {
-			if (strpos($_SERVER['HTTP_REFERER'], 'yourtraffix.com') === false) {
+			if (strpos($_SERVER['HTTP_REFERER'], 'yourtraffix.com') === true) {
 				die(json_encode(['token' => get_option('yt_token')]));
 			} else {
 				die(json_encode(['token' => null]));
@@ -222,7 +222,7 @@ class Yourtraffix_Admin
 				<?php if (is_rtl()) : ?>right<?php else : ?>left<?php endif; ?>: 160px;
 			}
 		</style>
-		<iframe src="http://localhost:3000/?<?php echo $_SERVER['QUERY_STRING']; ?>" class="yourtraffix-iframe"></iframe>
+		<iframe src="/wp-content/plugins/yourtraffix/admin/build/index.html?<?php echo $_SERVER['QUERY_STRING']; ?>" class="yourtraffix-iframe"></iframe>
 <?php
 	}
 
