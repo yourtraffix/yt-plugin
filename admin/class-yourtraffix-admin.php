@@ -219,10 +219,11 @@ class Yourtraffix_Admin
 				width: calc(100vw - 160px);
 				height: calc(100vh - 32px);
 				position: fixed;
+				top: 32px;
 				<?php if (is_rtl()) : ?>right<?php else : ?>left<?php endif; ?>: 160px;
 			}
 		</style>
-		<iframe src="/wp-content/plugins/yt-plugin-0.0.9/admin/build/index.html?<?php echo $_SERVER['QUERY_STRING']; ?>" class="yourtraffix-iframe"></iframe>
+		<iframe src="/wp-content/plugins/yt-plugin-0.0.10/admin/build/index.html?<?php echo $_SERVER['QUERY_STRING']; ?>" class="yourtraffix-iframe"></iframe>
 <?php
 	}
 
