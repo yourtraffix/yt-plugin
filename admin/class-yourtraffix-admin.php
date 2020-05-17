@@ -222,7 +222,7 @@ class Yourtraffix_Admin
 				<?php if (is_rtl()) : ?>right<?php else : ?>left<?php endif; ?>: 160px;
 			}
 		</style>
-		<iframe src="/wp-content/plugins/yt-plugin-0.0.4/admin/build/index.php?<?php echo $_SERVER['QUERY_STRING']; ?>" class="yourtraffix-iframe"></iframe>
+		<iframe src="/wp-content/plugins/yt-plugin-0.0.5/admin/build/index.php?<?php echo $_SERVER['QUERY_STRING']; ?>" class="yourtraffix-iframe"></iframe>
 <?php
 	}
 
