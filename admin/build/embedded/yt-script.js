@@ -3,9 +3,8 @@
 	let _feed = null;
 	let userInfo = null;
 	let apiUrl = 'https://api.yourtraffix.com';
-	let siteUrl = 'http://localhost:3000';
 
-	addCss(`${siteUrl}/embedded/yt-script.css`);
+	addCss(`./yt-script.css`);
 
 	const fetchUserInfo = async () => {
 		try {

@@ -247,7 +247,7 @@ class Yourtraffix_Admin
 
 			// info.json is the file with the actual plugin information on your server
 			$remote = wp_remote_get(
-				'http://local.api.yourtraffix.com/wordpress-plugin-update',
+				'https://api.yourtraffix.com/wordpress-plugin-update',
 				array(
 					'timeout' => 10,
 					'headers' => array(
@@ -311,7 +311,7 @@ class Yourtraffix_Admin
 
 			// info.json is the file with the actual plugin information on your server
 			$remote = wp_remote_get(
-				'http://local.api.yourtraffix.com/wordpress-plugin-update',
+				'https://api.yourtraffix.com/wordpress-plugin-update',
 				array(
 					'timeout' => 10,
 					'headers' => array(
