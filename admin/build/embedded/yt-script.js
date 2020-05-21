@@ -7,6 +7,19 @@
 
 	addCss(`${siteUrl}/embedded/yt-script.css`);
 
+	const fetchUserInfo = async () => {
+		try {
+			const response = await fetch('https://api.userinfo.io/userinfos', {
+				method: 'get',
+				credentials: 'same-origin',
+				headers: { 'X-Userinfo-Client-Id': 'userinfo-js:1.1.2-SNAPSHOT' }
+			});
+			userInfo = await response.json();
+		} catch (err) {
+			console.error(err);
+		}
+	};
+
 	if (document.readyState !== 'loading') {
 		init();
 	} else {
@@ -20,7 +33,7 @@
 			setFeedsSettings();
 			createUniqIdAndStoreInLocalStorage();
 			appendFeeds();
-			// fetchUserInfo();
+			fetchUserInfo();
 			attachedEvent();
 		} catch (error) {
 			console.error(error);
@@ -51,19 +64,6 @@
 			return false;
 		});
 	}
-
-	const fetchUserInfo = async () => {
-		try {
-			const response = await fetch('https://api.userinfo.io/userinfos', {
-				method: 'get',
-				credentials: 'same-origin',
-				headers: { 'X-Userinfo-Client-Id': 'userinfo-js:1.1.2-SNAPSHOT' }
-			});
-			userInfo = await response.json();
-		} catch (err) {
-			console.error(err);
-		}
-	};
 
 	function setFeedsSettings() {}
 
