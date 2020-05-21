@@ -2,7 +2,7 @@
 	let _website = null;
 	let _feed = null;
 	let userInfo = null;
-	let apiUrl = 'http://local.api.yourtraffix.com';
+	let apiUrl = 'https://api.yourtraffix.com';
 	let siteUrl = 'http://localhost:3000';
 
 	addCss(`${siteUrl}/embedded/yt-script.css`);
