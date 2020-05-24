@@ -79,7 +79,7 @@
 
 	async function appendFeeds() {
 		try {
-			let response = await fetch(`${apiUrl}/websites/me`);
+			let response = await fetch(`${apiUrl}/websites/get-website`);
 			if (response.status !== 200) {
 				return;
 			}
