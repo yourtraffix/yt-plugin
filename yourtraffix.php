@@ -14,9 +14,9 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Yourtraffix
- * Plugin URI:        https://wordpress.org/plugins/yourtraffix
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           0.0.11
+ * Plugin URI:        http://yourtraffix.com
+ * Description:       YourTraffix Social Advertising Network enables your posts to appear on others websites.
+ * Version:           0.0.15
  * Author:            Yourtraffix
  * Author URI:        http://yourtraffix.com
  * License:           GPL-2.0+

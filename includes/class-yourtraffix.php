@@ -170,11 +170,6 @@ class Yourtraffix
 
 		$this->loader->add_action('wp_enqueue_scripts', $plugin_admin, 'custom_script_load');
 		$this->loader->add_action('wp_loaded', $plugin_admin, 'wp_loaded');
-
-
-		// $this->loader->add_filter('plugins_api', $plugin_admin, 'misha_plugin_info', 20, 3);
-		// $this->loader->add_filter('site_transient_update_plugins', $plugin_admin, 'misha_push_update', null, 1);
-		// $this->loader->add_filter('upgrader_process_complete', $plugin_admin, 'misha_after_update', null, 2);
 	}
 
 	/**
