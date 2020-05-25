@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "809f140987df1b550a37a71d1160daea",
+    "revision": "55fc625451f08fce1aac3f248ecab2d0",
     "url": "/wp-content/plugins/yourtraffix/admin/build/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wp-content/plugins/yourtraffix/admin/build/static/css/2.5bc4965f.chunk.css"
   },
   {
-    "revision": "1b22804fcb81d96a3c24",
+    "revision": "f881ec34c1bc16a12ee9",
     "url": "/wp-content/plugins/yourtraffix/admin/build/static/css/main.3e314c78.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wp-content/plugins/yourtraffix/admin/build/static/js/2.4a886ad9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1b22804fcb81d96a3c24",
-    "url": "/wp-content/plugins/yourtraffix/admin/build/static/js/main.f0eff628.chunk.js"
+    "revision": "f881ec34c1bc16a12ee9",
+    "url": "/wp-content/plugins/yourtraffix/admin/build/static/js/main.c06a49fe.chunk.js"
   },
   {
     "revision": "c11b013b70cd6dcad08b",
