@@ -208,7 +208,10 @@ class Yourtraffix_Admin
 
 	public function custom_script_load()
 	{
-		wp_enqueue_script('my-custom-script', plugin_dir_url(__FILE__) . '/../build/embedded/yt-script.js', array('jquery'));
+		wp_enqueue_script('yourtraffix', plugin_dir_url(__FILE__) . '/../build/embedded/yt-script.js', array('jquery'));
+		
+		wp_register_style( 'yourtraffix', plugin_dir_url(__FILE__) . '/../build/embedded/yt-script.css' );
+    	wp_enqueue_style( 'yourtraffix' );
 	}
 
 	public function render_admin_page()
