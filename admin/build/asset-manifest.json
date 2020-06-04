@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/wp-content/plugins/yourtraffix/admin/build/static/css/main.3e314c78.chunk.css",
-    "main.js": "/wp-content/plugins/yourtraffix/admin/build/static/js/main.9b1dbda5.chunk.js",
-    "main.js.map": "/wp-content/plugins/yourtraffix/admin/build/static/js/main.9b1dbda5.chunk.js.map",
+    "main.js": "/wp-content/plugins/yourtraffix/admin/build/static/js/main.d540b0af.chunk.js",
+    "main.js.map": "/wp-content/plugins/yourtraffix/admin/build/static/js/main.d540b0af.chunk.js.map",
     "runtime-main.js": "/wp-content/plugins/yourtraffix/admin/build/static/js/runtime-main.a89a7c15.js",
     "runtime-main.js.map": "/wp-content/plugins/yourtraffix/admin/build/static/js/runtime-main.a89a7c15.js.map",
     "static/css/2.5bc4965f.chunk.css": "/wp-content/plugins/yourtraffix/admin/build/static/css/2.5bc4965f.chunk.css",
-    "static/js/2.4a886ad9.chunk.js": "/wp-content/plugins/yourtraffix/admin/build/static/js/2.4a886ad9.chunk.js",
-    "static/js/2.4a886ad9.chunk.js.map": "/wp-content/plugins/yourtraffix/admin/build/static/js/2.4a886ad9.chunk.js.map",
+    "static/js/2.08c59e69.chunk.js": "/wp-content/plugins/yourtraffix/admin/build/static/js/2.08c59e69.chunk.js",
+    "static/js/2.08c59e69.chunk.js.map": "/wp-content/plugins/yourtraffix/admin/build/static/js/2.08c59e69.chunk.js.map",
     "index.html": "/wp-content/plugins/yourtraffix/admin/build/index.html",
-    "precache-manifest.29ed5e6eb4a1f89688a73aef76a54f29.js": "/wp-content/plugins/yourtraffix/admin/build/precache-manifest.29ed5e6eb4a1f89688a73aef76a54f29.js",
+    "precache-manifest.e400e89de0dc3cf2b66aaf8604beea81.js": "/wp-content/plugins/yourtraffix/admin/build/precache-manifest.e400e89de0dc3cf2b66aaf8604beea81.js",
     "service-worker.js": "/wp-content/plugins/yourtraffix/admin/build/service-worker.js",
     "static/css/2.5bc4965f.chunk.css.map": "/wp-content/plugins/yourtraffix/admin/build/static/css/2.5bc4965f.chunk.css.map",
     "static/css/main.3e314c78.chunk.css.map": "/wp-content/plugins/yourtraffix/admin/build/static/css/main.3e314c78.chunk.css.map",
-    "static/js/2.4a886ad9.chunk.js.LICENSE.txt": "/wp-content/plugins/yourtraffix/admin/build/static/js/2.4a886ad9.chunk.js.LICENSE.txt"
+    "static/js/2.08c59e69.chunk.js.LICENSE.txt": "/wp-content/plugins/yourtraffix/admin/build/static/js/2.08c59e69.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a89a7c15.js",
     "static/css/2.5bc4965f.chunk.css",
-    "static/js/2.4a886ad9.chunk.js",
+    "static/js/2.08c59e69.chunk.js",
     "static/css/main.3e314c78.chunk.css",
-    "static/js/main.9b1dbda5.chunk.js"
+    "static/js/main.d540b0af.chunk.js"
   ]
 }
