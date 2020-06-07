@@ -16,7 +16,7 @@
  * Plugin Name:       Yourtraffix
  * Plugin URI:        http://yourtraffix.com
  * Description:       YourTraffix Social Advertising Network enables your posts to appear on others websites.
- * Version:           0.0.26
+ * Version:           0.0.28
  * Author:            Yourtraffix
  * Author URI:        http://yourtraffix.com
  * License:           GPL-2.0+
