@@ -2,7 +2,9 @@
 	let _website = null;
 	let _feed = null;
 	let userInfo = null;
-	let apiUrl = 'https://api.yourtraffix.com';
+	// let apiUrl = 'https://api.yourtraffix.com';
+	let apiUrl = process.env.API_URL;
+	console.log('process.env.API_URL', process.env.API_URL);
 
 	addCss(`./yt-script.css`);
 
@@ -22,7 +24,7 @@
 	if (document.readyState !== 'loading') {
 		init();
 	} else {
-		document.addEventListener('DOMContentLoaded', function() {
+		document.addEventListener('DOMContentLoaded', function () {
 			init();
 		});
 	}
@@ -64,7 +66,7 @@
 		});
 	}
 
-	function setFeedsSettings() {}
+	function setFeedsSettings() { }
 
 	function createUniqIdAndStoreInLocalStorage() {
 		let uniqId;
@@ -92,7 +94,7 @@
 
 			_feed = feed;
 
-			console.log([ 'feed.campaigns', feed.campaigns ]);
+			console.log(['feed.campaigns', feed.campaigns]);
 			const feed_bar = `<div class="yt-feed">
         <div class="yt-feed-header">
           <img src="http://yourtraffix.com/wp-content/uploads/2020/05/sponserdby.png"></img>
