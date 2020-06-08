@@ -102,11 +102,12 @@
 					.map(
 						(campaign) => `
                <a href="${campaign.url}" target="_blank" class="yt-feed-one-title">
-                <div class="yt-feed-one" data-campaign_id="${campaign.id}" >
-                  <p href="${campaign.url}" target="_blank" class="yt-feed-one-title">${campaign.title}</p>
+                <div class="yt-feed-one" data-campaign_id="${campaign.id}">
+                  	<p href="${campaign.url}" target="_blank" class="yt-feed-one-title"><span>${campaign.title}</span></p>
                
-                <div class="yt-feed-one-image">
-                   <img src="${campaign.featured_image}"></img></div>
+					<div class="yt-feed-one-image">
+					<img src="${campaign.featured_image}"></img>
+					</div>
                 </div>
              </a>`
 					)
