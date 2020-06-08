@@ -23,10 +23,14 @@
   margin: 0px;
   font-size: 13px;
   color: #3a3939 !important;
-  max-height: 49px;
+
   overflow: hidden;
   font-size: 18px;
   font-weight: 300;
+}
+
+.yt-feed-one-title p {
+  height: 49px;
 }
 
 .yt-feed-one-image {
