@@ -2,9 +2,8 @@
 	let _website = null;
 	let _feed = null;
 	let userInfo = null;
-	// let apiUrl = 'https://api.yourtraffix.com';
-	let apiUrl = process.env.API_URL;
-	console.log('process.env.API_URL', process.env.API_URL);
+	let apiUrl = 'https://api.yourtraffix.com';
+
 
 	addCss(`./yt-script.css`);
 
