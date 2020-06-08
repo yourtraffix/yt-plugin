@@ -4,7 +4,6 @@
 	let userInfo = null;
 	let apiUrl = 'https://api.yourtraffix.com';
 
-
 	addCss(`./yt-script.css`);
 
 	const fetchUserInfo = async () => {
